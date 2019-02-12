@@ -6,6 +6,5 @@ def line(array)
   else 
     line_string = "The line is currently:"
     line_string << array.each_with_index{|name, index| puts " #{index + 1}. #{name}"}
-    puts line_string
   end
 end
